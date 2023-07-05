@@ -1,5 +1,11 @@
 {
   "docker": {
     "pinDigests": true
+  },
+  "dotnet": {
+    "packageRules": [{
+      "matchPackageNames": ["foo"],
+      "enabled": false
+    }]
   }
 }
